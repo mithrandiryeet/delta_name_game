@@ -27,10 +27,10 @@ $(document).ready(function () {  //iife
 function generateCoolNameFacts(userName) {
   let coolFacts = ''; 
   
-  coolFacts = nameLength(userName);
-  coolFacts += " <br> " + nameStart(userName);
+  coolFacts = "<h3>" + nameLength(userName) + "</h3>";
+  coolFacts += " <h3> " + nameStart(userName) + "</h3>";
   coolFacts += "<h3> " + nameEnd(userName) + "</h3>";
-  coolFacts += "<h3>" + reverseName(userName) + "</h3>"
+  // coolFacts += "<h3>" + reverseName(userName) + "</h3>"
   
 
   console.log("initialized the coolFacts variable: " + coolFacts); 
@@ -53,13 +53,13 @@ function nameEnd(name) {
   return "the last letter of your name is " + name[lastIndex]
 }
 
-  function reverseName(name) {
+//   function reverseName(name) {
   
-   let arrName = name.split(); 
+//    let arrName = name.split(); 
 
-   revName = arrName.reverse();
+//    revName = arrName.reverse();
 
-   return "your name in reverse is " + name[arrName]
+//    return "your name in reverse is " + name[arrName]
      
- }
+//  }
 
