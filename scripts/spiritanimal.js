@@ -1,20 +1,20 @@
-function chooseAnimal(userName) {
+// function chooseAnimal(userName) {
 
-    let inputLength = userName.length
+//     let inputLength = userName.length
 
-if(inputLength < 4)
-{
+// if(inputLength < 4)
+// {
 
-    console.log('your animal is a mouse');
+//     console.log('your animal is a mouse');
     
-}
-else if(4 < inputLength < 6)
-{
-    console.log('your animal is a chupacabra');
-}
+// }
+// else if(4 < inputLength < 6)
+// {
+//     console.log('your animal is a chupacabra');
+// }
 
-}
+// }
 
-//chooseAnimal("dadsfdasdfs");
+// //chooseAnimal("dadsfdasdfs");
 
-$("#coolNameFactsOutput").html(chooseAnimal("dadsfdasdfs"));
+// $("#coolNameFactsOutput").html(chooseAnimal("dadsfdasdfs"));
